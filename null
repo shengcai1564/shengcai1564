@@ -1,0 +1,11 @@
+/** 
+   * see BillingManager#checkSubscription(BillingInfo) 
+   */ 
+  public BillingInfo checkSubscription(BillingInfo inBillingInfo) 
+      throws BillingException 
+  { 
+    if (CHECK_SUBSCRIPTION_RESPONSE == NULL) 
+      return null; 
+ 
+    if (CHECK_SUBSCRIPTION_RESPONSE == EXCEPTION) 
+      throw new NullPointerException("Developer Null Pointer"); 
