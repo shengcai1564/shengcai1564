@@ -1,0 +1,8 @@
+arameters.addElement(ht); 
+ 
+// Send the request to Content Delivery Server 
+Hashtable response = (Hashtable) client.execute("ContentHandler.purchaseContent", parameters); 
+ 
+// Evaluate the response 
+String errorCode = (String)response.get("response_code"); 
+if (!errorCode.equals("1")) 
