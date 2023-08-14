@@ -1,0 +1,13 @@
+package ianywhere.ultralitej.demo;
+import ianywhere.ultralitej.*;
+/**
+ * CreateDb: sample program to demonstrate Database creation.
+ */
+public class CreateDb
+{
+    /**
+     * mainline for program.
+     *
+     * @param args command-line arguments
+     *
+     */
